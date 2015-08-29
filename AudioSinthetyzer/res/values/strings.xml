@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">AudioSinthetyzer</string>
+    <string name="start_sound">Start Sound</string>
+    <string name="end_sound">End Sound</string>
+
+</resources>

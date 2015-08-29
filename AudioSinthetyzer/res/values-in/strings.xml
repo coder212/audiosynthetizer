@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <string name="app_name">Suara Buatan</string>
+     <string name="start_sound">Memulai Suara</string>
+     <string name="end_sound">Mengahiri Suara</string>
+     
+</resources>
