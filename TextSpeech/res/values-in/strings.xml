@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Text Untuk Bicara</string>
+    <string name="text_inputHint">Text Yang Akan Diucapkan</string>
+    <string name="text_label">Android Text Yang Akan Diucapkan</string>
+    <string name="text_button">Memulai Bicara</string>
+    
+</resources>
