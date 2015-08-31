@@ -3,6 +3,7 @@
     <string name="app_name">Text To Speech</string>
     <string name="text_inputHint">Text To Speech</string>
     <string name="text_label">Android Text To Speech</string>
+    <string name="text_seting">Settings</string>
     <string name="text_button">Start Speech</string>
 
 </resources>

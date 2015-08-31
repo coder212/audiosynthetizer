@@ -3,8 +3,12 @@ package com.cth.textspeech;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.TextToSpeech.OnInitListener;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -69,6 +73,27 @@ public  class TextSpeechActivity extends Activity implements OnInitListener {
 		}else{
 			Toast.makeText(TextSpeechActivity.this,"gagal inisiasi text to speech", Toast.LENGTH_LONG).show();
 		}
+	}
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// TODOs Auto-generated method stub
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.menu, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// TODOs Auto-generated method stub
+		switch(item.getItemId()){
+		case R.id.settings:
+			startActivity(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);
+		}
+		//return super.onOptionsItemSelected(item);
 	}
 
 }
